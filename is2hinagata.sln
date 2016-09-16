@@ -1,21 +1,23 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2hinagata", "http://localhost/is2/is2hinagata/is2hinagata.csproj", "{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}"
-	ProjectSection(ProjectDependencies) = postProject
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2hinagata", "is2hinagata.csproj", "{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Debug.ActiveCfg = Debug|.NET
-		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Debug.Build.0 = Debug|.NET
-		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Release.ActiveCfg = Release|.NET
-		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Release.Build.0 = Release|.NET
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770DF746-1AD1-47D4-9CB0-F3705F05D4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
